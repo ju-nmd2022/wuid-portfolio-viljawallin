@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(254, 240, 255);
+}
+h1 {
+  font-size: 35pt;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  color: rgb(142, 152, 255);
+  background-color: rgb(207, 189, 255);
+}
+
+h2 {
+  font-size: 22pt;
+  font-style: italic;
+  color: rgb(207, 189, 255);
+}
+h3 {
+  font-size: 22pt;
+  font-style: italic;
+  color: rgb(207, 189, 255);
+}
+h4 {
+  font-size: 22pt;
+  font-style: italic;
+  color: rgb(207, 189, 255);
+}
+h5 {
+  font-size: 22pt;
+  font-style: italic;
+  color: rgb(207, 189, 255);
+}
+.strand {
+  float: right;
+}
+.ice-cream {
+  float: right;
+  margin-top: 30px;
+}
+.food {
+  float: right;
+  margin-top: 20px;
+}

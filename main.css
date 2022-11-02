@@ -1,0 +1,42 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-color: #ffcdff;
+}
+
+.vilja {
+  float: right;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.happy-list {
+  margin-bottom: 25px;
+}
+.cloud {
+  float: right;
+  margin-top: -115px;
+}
+p {
+  font-size: 12pt;
+}
+img {
+  float: right;
+}
+h1 {
+  font-size: 30pt;
+  color: #ff9c62;
+  background-color: #faebd7;
+}
+h2 {
+  font-size: 17pt;
+  color: #ff9c62;
+  background-color: #faebd7;
+}
+h3 {
+  font-size: 17pt;
+  color: #ff9c62;
+  background-color: #faebd7;
+}
