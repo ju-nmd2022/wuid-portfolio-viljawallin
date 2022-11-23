@@ -31,6 +31,125 @@ h1 {
   background-color: #faebd7;
 }
 h2 {
+  color: #f58ebe;
+}
+h3 {
+  color: #f58ebe;
+}
+.headline {
+    animation-name: crazy-headline;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0,5s;
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
+    transform-origin: left;
+  }
+  .herosection {
+    width: 1500px;
+    height: 250px;
+    background-color: #fab5ad;
+    font-weight: bold;
+    position: relative;
+    animation: movement 5s;
+    border-radius: 2px;
+    justify-content: center;
+  }
+  .box1 {
+    width: 100px;
+    height: 100px;
+    background-color:#f58ebe;
+    border-radius: 50px;
+    animation-name: colorful-circle;
+    animation-duration: 6s;
+  }
+  .box2 {
+    width: 120px;
+    height: 120px;
+    background-color:aliceblue;
+    border-radius: 70px;
+    margin-left: 600px;
+    animation-name: colorful-circle;
+    animation-duration: 6s;
+  }
+  .box3 {
+    width: 80px;
+    height: 80px;
+    background-color: #fad7f4;
+    border-radius: 100px;
+    margin-top: -58px;
+    margin-left: 320px;
+    animation-name: colorful-circle;
+    animation-duration: 6s;
+  }
+  .box4 {
+    width: 160px;
+    height: 160px;
+    background-color:#f9ffbc;
+    border-radius: 100px;
+    margin-top: -230px;
+    margin-left: 900px;
+    animation-name: colorful-circle;
+    animation-duration: 6s;
+  }
+  .box5 {
+    width: 110px;
+    height: 110px;
+    background-color: antiquewhite;
+    border-radius: 150px;
+    margin-top: -100px;
+    margin-left: 1350px;
+    animation-name: colorful-circle;
+    animation-duration: 6s;
+  }
+@keyframes colorful-circle {
+  0% {
+    background-color: #fad7f4;
+    transform: scale(1);
+  }
+ 25% {
+  background-color: #ff9c62;
+  transform: scale(150%);
+ }
+  50% {
+    background-color: #f58ebe;
+    transform: scale(1);
+  }
+  75% {
+    background-color: #f9ffbc;
+    transform: scale(150%);
+  }
+  100% {
+    background-color: antiquewhite;
+    transform: scale(1);
+  }
+}
+  @keyframes circle {
+    from {left: 1000px;}
+    to {left: 0px;}
+  } 
+@keyframes movement {
+  from {left: 400px;}
+  to {left: 0px;}
+} 
+
+
+  @keyframes crazy-headline {
+0% {
+  background-color:antiquewhite;;
+  transform: scaleX(1);
+}
+50% {
+  background-color: #faebd7;
+  color: #fab5ad;
+  transform: scaleX(2);
+}
+100% {
+  background-color: #f58ebe;
+  color: antiquewhite;
+  transform: scaleX(1);
+}
+h2 {
   font-size: 17pt;
   color: #ff9c62;
   background-color: #faebd7;
